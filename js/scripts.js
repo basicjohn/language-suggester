@@ -40,14 +40,11 @@ $(document).ready(function () {
     }
 
     $(function () {
-      $(question5 + 'is a great quality to have!').appendTo('.qualities h5');
+      $("<h5>" + question5 + " is a great quality to have!</h5>").prependTo('#qualities');
     });
 
 
   });
-
-
-
 
 
 });
