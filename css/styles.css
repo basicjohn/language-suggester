@@ -1,25 +1,45 @@
-
-
-
-
-
-
-
-
-/*  blue: 2b2f56
-    teal: 5ec3b1
-    orange: df5b2f
-    light blue: eff1fb */
+/*  green: 2d4e3b
+    orange: ecb540
+    medium grey: 36373a
+    darker grey: 292a2d
+    text black: 302e31 
+    background-color fbfaff*/
 
 /* Site Wide Styles */
+
+body {
+  color: #302e31;
+  background-color: #2d4e3b;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.container {
+background-color: #fbfaff;
+min-height: 100%;
+padding: 50px;
+margin-top: auto;
+margin-bottom: auto;
+}
 
 .btn-outline-dark, .languageLogo {
   width: 100%;
 }
 
+a {
+  color: #ecb540;
+}
+
 /* Header */
 
-h1 {
+.jumbotron {
+  background-color: #fbfaff;
+
+  
+}
+
+.jumbotron h1, .jumbotron p {
   text-align: center;
 }
 
