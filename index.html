@@ -12,13 +12,47 @@
 </head>
 <body>
   <div class="container">
+    <!-- Intro -->
     <h1>Programming Language Suggester</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, natus delectus minus nisi rerum unde omnis praesentium quisquam corporis itaque molestias dolorem! Vel quas dignissimos cum delectus dicta accusantium cumque.</p>
+
+    <!-- Quiz -->
     <div class="row">
       <div class="col-4">
           <form id="suggesterQuestions">
-            <h4>To be proficient how long do you have to learn?</h4>
+            <h4>What are arena are you looking to develop in?</h4>
             <select class="custom-select" id="question1">
+              <option selected>Evironment</option>
+              <option value="1">Front end</option>
+              <option value="2">Backend</option>
+              <option value="3">A little bit of both</option>
+            </select>
+
+            <h4>To be proficient how long do you have to learn?</h4>
+            <select class="custom-select" id="question2">
+              <option selected>Time To Learn</option>
+              <option value="1">Short</option>
+              <option value="2">Medium</option>
+              <option value="3">Long</option>
+            </select>
+
+            <h4>Do you want the Programming Language to fast?</h4>
+            <select class="custom-select" id="question4">
+              <option selected>Running Speed</option>
+              <option value="1">Slow as molasses</option>
+              <option value="2">Obcviously fast</option>
+            </select>
+
+            <h4>What sort of Attitude do you bring to development?</h4>
+            <select class="custom-select" id="question3">
+              <option selected>Type of Attitude</option>
+              <option value="1">Whatever gets me across the finish line</option>
+              <option value="2">Medium</option>
+              <option value="3">Long</option>
+            </select>
+
+            <h4>To be proficient how long do you have to learn?</h4>
+            <select class="custom-select" id="question5">
               <option selected>Time To Learn</option>
               <option value="1">Short</option>
               <option value="2">Medium</option>
@@ -28,13 +62,49 @@
             <button type="submit" class="btn btn-outline-dark">Submit</button>
           </form>
       </div>
+
+      <!-- Quiz Results -->
       <div class="col-8">
         <div id="incompleteQuiz">
-
+          <h2>Fill out the form to find out</h2>
+          <h1>Try it out!</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga impedit, obcaecati, soluta quod aperiam maiores blanditiis facere aspernatur ea enim ipsum saepe, tenetur dolorem quaerat pariatur iure dignissimos officiis! Eum.</p>
+          <h4>Javascipt Resources</h4>
+          <ul>
+            <li>Sample Text</li>
+            <li>Sample Text</li>
+            <li>Sample Text</li>
+          </ul>
         </div>
         <div id="javascriptContent">
-          <h2>You Selected a Front-end Language</h2>
-          <h3
+          <div class="row">
+            <div class="col-md-9">
+              <h2>You Selected a Front-end Language</h2>
+              <h1>Javascipt</h1>
+            </div>
+            <div class="col-md-3">
+              <img class="languageLogo" src="img/javascript-logo.png">
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga impedit, obcaecati, soluta quod aperiam maiores blanditiis facere aspernatur ea enim ipsum saepe, tenetur dolorem quaerat pariatur iure dignissimos officiis! Eum.</p>
+          <h4>Javascipt Resources</h4>
+
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li>Sample Text</li>
+                <li>Sample Text</li>
+                <li>Sample Text</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Sample Text</li>
+                <li>Sample Text</li>
+                <li>Sample Text</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div id="swiftContent">
 

@@ -2,13 +2,17 @@
   display: none;
 }
 
-
 select {
   padding: 10px;
   width: 100%;
   margin-bottom: 15px;
 }
 
-.btn-outline-dark {
+.btn-outline-dark, .languageLogo {
   width: 100%;
+}
+
+.languageLogo {
+  float: right;
+  margin: 20px;
 }
