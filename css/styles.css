@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-h1, h2 {
+h1, h2, h4 {
   Font-Family: 'PT Sans', Sans-Serif;
   Font-Size: 46px;
   font-weight: 400;
@@ -35,7 +35,7 @@ p, li {
 .container {
 background-color: #fbfaff;
 min-height: 100%;
-padding: 30px 30px 30px 30px;
+padding: 0px 30px 30px 30px;
 margin-top: auto;
 margin-bottom: auto;
 }
@@ -60,16 +60,32 @@ hr.yellow {
   border-top: 1px solid #ecb540;
 }
 
+hr.sm {
+  width: 4%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+hr.md {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
 /* Header */
 
 .jumbotron {
   background-color: #fbfaff;
   padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;;
   margin: 0;
 }
 
 .jumbotron h1 {
-  line-height: 90px;
+  line-height: 60px;
+  font-size: 46px;
+  margin-bottom: 20px;
 }
 
 .jumbotron h1, .jumbotron p {
@@ -80,19 +96,22 @@ hr.yellow {
 
 #sidebar {
   background-color: #36373a;
-  color: #fff;
+  color: #fbfaff;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 #instructions {
+  color: #fff;
   text-align: center;
+  font-size: 16px;
 }
 
 #sidebar h4 {
-  width: 90%;
+  width: 95%;
   font-size: 18px;
   margin-bottom: 15px;
+  padding-left: 15px;
 }
 
 select {

@@ -46,7 +46,7 @@ $(document).ready(function () {
       $(function () {
         $("#qualities h5").remove();
         $("#qualities").show();
-        $("<h5>" + question5 + " is a great quality for a developer to have!</h5>").prependTo('#qualities');
+        $("<h5><span>" + question5 + "</span> is a great quality for a developer to have!</h5>").prependTo('#qualities');
       });
     } else { }
   });

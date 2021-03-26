@@ -15,14 +15,18 @@
     <!-- Intro -->
     <div class="row jumbotron">
       <div class="col-12">
+        <hr class="light">
         <h1>Programming Language Suggester</h1>
+        <hr class="light">
       </div>
     </div>
 
     <!-- Quiz -->
     <div class="row">
       <div class="col-4" id="sidebar">
-        <p id="instructions">complete each question to get a suggestion</p>
+        <hr class="yellow sm">
+        <p id="instructions">complete each question below to get a <br>coding language suggestion</p>
+        <hr class="dark md">
         <form id="suggesterQuestions">
           <h4>What are arena are you looking to develop in?</h4>
           <select class="custom-select" id="question1">
@@ -31,7 +35,7 @@
             <option value="2">Backend</option>
             <option value="3">A little bit of both</option>
           </select>
-          <hr class="dark">
+          <hr class="dark md">
           <h4>To be proficient how long do you have to learn?</h4>
           <select class="custom-select" id="question2">
             <option selected>Time To Learn</option>
@@ -39,14 +43,14 @@
             <option value="2">Medium</option>
             <option value="3">Long</option>
           </select>
-          <hr class="dark">
+          <hr class="dark md">
           <h4>Do you want the Programming Language to fast?</h4>
           <select class="custom-select" id="question4">
             <option selected>Running Speed</option>
             <option value="1">Slow as molasses</option>
             <option value="2">Obviously fast</option>
           </select>
-          <hr class="dark">
+          <hr class="dark md">
           <h4>What attitude do you have towards writing code?</h4>
           <select class="custom-select" id="question3">
             <option selected>Type of Attitude</option>
@@ -54,7 +58,7 @@
             <option value="2">My code is always better than everyone elses</option>
             <option value="3">Write to the best of my ability & clean up after those who came before you</option>
           </select>
-          <hr class="dark">
+          <hr class="dark md">
           <h4>Which quality do you relate to most as a developer?</h4>
           <select class="custom-select" id="question5">
             <option selected>Developer Qualities</option>
@@ -68,8 +72,10 @@
             <option value="7">Technical Skills</option>
             <option value="8">A Positive Attitude</option>
           </select>
-          <hr class="dark">
+          <hr class="dark md">
           <button type="submit" class="btn btn-outline-dark">Submit</button>
+          <hr class="yellow sm">
+
         </form>
       </div>
 
