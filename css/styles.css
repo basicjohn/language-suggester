@@ -1,8 +1,8 @@
-/*  green: 2d4e3b
-    orange: ecb540
-    medium grey: 36373a
-    darker grey: 292a2d
-    text black: 302e31 
+/*  green: #2d4e3b
+    orange: #ecb540
+    medium grey: #36373a
+    darker grey: #292a2d
+    text black: #302e31
     background-color fbfaff*/
 
 /* Site Wide Styles */
@@ -12,18 +12,38 @@ body {
   background-color: #2d4e3b;
   width: 100%;
   height: 100%;
-  padding-top: 50px;
+  padding-top: 30px;
+  font-size: 14px;
+  Font-Family: 'Bitter', Serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+
+}
+
+h1, h2 {
+  Font-Family: 'PT Sans', Sans-Serif;
+  Font-Size: 46px;
+  font-weight: 400;
+
+}
+
+p, li {
+  Font-Family: 'Bitter', Serif;
+  Font-Size: 14px;
 }
 
 .container {
 background-color: #fbfaff;
 min-height: 100%;
-padding: 50px;
+padding: 30px 30px 30px 30px;
 margin-top: auto;
 margin-bottom: auto;
 }
 
-.btn-outline-dark, .languageLogo {
+.btn-outline-dark {
   width: 100%;
 }
 
@@ -35,7 +55,8 @@ a {
 
 .jumbotron {
   background-color: #fbfaff;
-
+  padding: 0;
+  margin: 0;
   
 }
 
@@ -45,10 +66,35 @@ a {
 
 /* Sidebar: Suggestion Quiz */
 
+#sidebar {
+  background-color: #36373a;
+  color: #fff;
+  padding-top: 30px;
+
+}
+
+#sidebar h4 {
+  width: 90%;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
 select {
   padding: 10px;
   width: 100%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-outline-dark {
+  background-color: #ecb540;
+  color: #292a2d;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-outline-dark:hover {
+  background-color: #292a2d;
+  color: #fff;
 }
 
 .custom-select:after {
@@ -61,7 +107,19 @@ select {
   display: none;
 }
 
+.quizResults h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 .languageLogo {
   float: right;
   margin: 20px;
+}
+
+/* Footer Styles */
+
+#footer {
+  padding-top: 30px;
+  text-align: center;
 }
