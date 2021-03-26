@@ -16,15 +16,35 @@ $(document).ready(function () {
     question2 = $("#question2").val();
     question3 = $("#question3").val();
     question4 = $("#question4").val();
-    question5 = $("#question5").val();
+    question5 = $("#question5 option:selected").text();
     console.log(question1);
     console.log(question2);
     console.log(question3);
     console.log(question4);
     console.log(question5);
     event.preventDefault();
-  });
+    $(".quizResults").hide();
 
+    if (question1 === "1") {
+      $("#javascriptContent").show();
+    } else if (question1 === "2") {
+      if (question2 === "1") {
+        $("#pythonContent").show();
+      } else {
+        $("#cContent").show();
+      }
+    } else if (question1 === "3") {
+      $("#swiftContent").show();
+    } else {
+      console.log("Could not complete");
+    }
+
+    $(function () {
+      $(question5 + 'is a great quality to have!').appendTo('.qualities h5');
+    });
+
+
+  });
 
 
 
