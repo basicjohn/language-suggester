@@ -76,12 +76,17 @@ hr.yellow {
   text-align: center;
 }
 
-/* Sidebar: Suggestion Quiz */
+/* Sidebar */
 
 #sidebar {
   background-color: #36373a;
   color: #fff;
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#instructions {
+  text-align: center;
 }
 
 #sidebar h4 {
@@ -93,14 +98,12 @@ hr.yellow {
 select {
   padding: 15px;
   width: 100%;
-  margin-bottom: 30px;
 }
 
 .btn-outline-dark {
   background-color: #ecb540;
   color: #292a2d;
   padding: 10px;
-  margin-bottom: 25px;
 }
 
 .btn-outline-dark:hover {
@@ -128,6 +131,7 @@ select {
 }
 
 img.languageLogo {
+  width: 100
   float: right;
 }
 
