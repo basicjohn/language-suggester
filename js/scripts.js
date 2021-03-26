@@ -19,44 +19,34 @@ $(document).ready(function () {
     question5 = $("#question5 option:selected").text();
     event.preventDefault();
     $(".quizResults").hide();
+    $(".alert").hide();
+
 
     if (question1 === "1") {
-      $(".alert").hide();
       $("#javascriptContent").show();
     } else if (question1 === "2") {
       if (question2 === "1") {
-        $(".alert").hide();
         $("#pythonContent").show();
       } else {
-        $(".alert").hide();
         $("#cContent").show();
       }
     } else if (question1 === "3") {
-      $(".alert").hide();
       $("#swiftContent").show();
+    } else if (question5 === "Developer Qualities") {
+      $("#incompleteQuiz").show();
+      $("#qualities").hide();
+      $(" <div class=\"alert alert-danger\" role=\"alert\">ERROR: You must complete the quiz!</div > ").appendTo('#suggesterQuestions');
     } else {
       $("#incompleteQuiz").show();
-      $(".alert").hide();
       $(" <div class=\"alert alert-danger\" role=\"alert\">ERROR: You must complete the quiz!</div > ").appendTo('#suggesterQuestions');
-
     }
     // inserting the answer for question #5 in the div w/ id of qualities
-
-    if (question5 === "Developer Qualities") {
-      $(".alert").hide();
-      $(" <div class=\"alert alert-danger\" role=\"alert\">ERROR: You must complete the quiz!</div > ").appendTo('#suggesterQuestions');
-
-    } else {
+    if (question5 > 0) {
       $(function () {
         $("#qualities h5").remove();
-        $("#qualities").hide();
         $("#qualities").show();
         $("<h5>" + question5 + " is a great quality for a developer to have!</h5>").prependTo('#qualities');
       });
-    }
-
-
+    } else { }
   });
-
-
 });
