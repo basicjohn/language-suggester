@@ -1,6 +1,29 @@
-#incompleteQuiz, #swiftContent, #cContent, #pythonContent, #qualities {
-  display: none;
+
+
+
+
+
+
+
+
+/*  blue: 2b2f56
+    teal: 5ec3b1
+    orange: df5b2f
+    light blue: eff1fb */
+
+/* Site Wide Styles */
+
+.btn-outline-dark, .languageLogo {
+  width: 100%;
 }
+
+/* Header */
+
+h1 {
+  text-align: center;
+}
+
+/* Sidebar: Suggestion Quiz */
 
 select {
   padding: 10px;
@@ -8,8 +31,14 @@ select {
   margin-bottom: 15px;
 }
 
-.btn-outline-dark, .languageLogo {
-  width: 100%;
+.custom-select:after {
+  color: #df5b2f;
+}
+
+/* Main Content: Quiz Results */
+
+#incompleteQuiz, #swiftContent, #cContent, #pythonContent, #qualities {
+  display: none;
 }
 
 .languageLogo {
