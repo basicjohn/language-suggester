@@ -16,6 +16,7 @@ $(document).ready(function () {
     question2 = $("#question2").val();
     question3 = $("#question3").val();
     question4 = $("#question4").val();
+    question5val = $("#question5 option:selected").val();
     question5 = $("#question5 option:selected").text();
     event.preventDefault();
     $(".quizResults").hide();
@@ -41,7 +42,7 @@ $(document).ready(function () {
       $(" <div class=\"alert alert-danger\" role=\"alert\">ERROR: You must complete the quiz!</div > ").appendTo('#suggesterQuestions');
     }
     // inserting the answer for question #5 in the div w/ id of qualities
-    if (question5 > 0) {
+    if (question5val > 0) {
       $(function () {
         $("#qualities h5").remove();
         $("#qualities").show();
