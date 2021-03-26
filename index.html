@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <script href="js/jquery-3.6.0.js"></script>
-  <script href="js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
   <title>Programming Language Suggester</title>
 </head>
 <body>
@@ -16,15 +16,16 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, natus delectus minus nisi rerum unde omnis praesentium quisquam corporis itaque molestias dolorem! Vel quas dignissimos cum delectus dicta accusantium cumque.</p>
     <div class="row">
       <div class="col-4">
-          <form>
-            <select class="custom-select">
+          <form id="suggesterQuestions">
+            <h4>To be proficient how long do you have to learn?</h4>
+            <select class="custom-select" id="question1">
               <option selected>Time To Learn</option>
               <option value="1">Short</option>
               <option value="2">Medium</option>
               <option value="3">Long</option>
             </select>
 
-            <button type="submit" class="btn btn-outline-dark">Dark</button>
+            <button type="submit" class="btn btn-outline-dark">Submit</button>
           </form>
       </div>
       <div class="col-8">

@@ -1,3 +1,14 @@
 #incompleteQuiz, #swiftContent, #cContent, #pythonContent {
   display: none;
 }
+
+
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.btn-outline-dark {
+  width: 100%;
+}
