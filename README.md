@@ -1,11 +1,11 @@
-# Portfolio Landing Page
+# Programming Language Suggester
 
-#### _This is the Portfolio Landing page for John Edmondson_
-### Week 1 Project for the March 2021 Co-hort session:  Git, HTML and CSS Independent Project
+#### _This is the Programming Language Suggester created by John Edmondson_
+### Week 2 Project for the March 2021 Co-hort session:  Git, HTML and CSS Independent Project
 #### By _**John Edmondson**_
 
 ### Git Pages Link
-[John Edmondson Portfolio Landing Page (GitHub Pages)](http://basicjohn.github.io/portfolio)
+[Programming Language Suggester (GitHub Pages)](http://basicjohn.github.io/language-suggester)
 
 ## Technologies Used
 
@@ -15,10 +15,12 @@
 * Google Fonts
 * Git
 * VS Code
+* Javascript
+* Jquery
 
 ## Description
 
-_This is the Portfolio Landing page for John Edmondson
+_This is a website designed and created to help a user figure out which language they should start learning._
 
 ## Setup/Installation Requirements
 

@@ -1,16 +1,11 @@
-// Business logic:
-var question1
-var question2
-var question3
-var question4
-var question5
+var question1;
+var question2;
+var question3;
+var question4;
+var question5;
 
-
-
-
-
-// Everything below this line is user interface logic:
 $(document).ready(function () {
+  // interpret all the Q's & reset elements from previous submission
   $("#suggesterQuestions").submit(function (event) {
     question1 = $("#question1").val();
     question2 = $("#question2").val();
@@ -22,7 +17,7 @@ $(document).ready(function () {
     $(".quizResults").hide();
     $(".alert").hide();
 
-
+    // Using answers to question to show results
     if (question1 === "1") {
       $("#javascriptContent").show();
     } else if (question1 === "2") {
@@ -41,12 +36,14 @@ $(document).ready(function () {
       $("#incompleteQuiz").show();
       $(" <div class=\"alert alert-danger\" role=\"alert\">ERROR: You must complete the quiz!</div > ").appendTo('#suggesterQuestions');
     }
-    // inserting the answer for question #5 in the div w/ id of qualities
+
+    // insert the answer for question #5 in the div w/ id of qualities
     if (question5val > 0) {
       $(function () {
         $("#qualities h5").remove();
         $("#qualities").show();
-        $("<h5><span>" + question5 + "</span> is a great quality for a developer to have!</h5>").prependTo('#qualities');
+        $("<h5><span>" + question5 + "</span> is a great quality for a developer!</h5>").prependTo('#qualities');
+        $("<hr class=\"yellow\">").appendTo('#qualities');
       });
     } else { }
   });

@@ -1,18 +1,11 @@
-/*  green: #2d4e3b
-    orange: #ecb540
-    medium grey: #36373a
-    darker grey: #292a2d
-    text black: #302e31
-    background-color fbfaff*/
-
 /* Site Wide Styles */
-
 body {
   color: #302e31;
   background-color: #2d4e3b;
   width: 100%;
   height: 100%;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 16px;
   Font-Family: 'Bitter', Serif;
 }
@@ -21,10 +14,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-h1, h2, h4 {
+h1 {
   Font-Family: 'PT Sans', Sans-Serif;
   Font-Size: 46px;
   font-weight: 400;
+}
+
+h2 {
+  Font-Family: 'Bitter', Serif;
+  Font-Size: 18px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 p, li {
@@ -33,11 +33,15 @@ p, li {
 }
 
 .container {
-background-color: #fbfaff;
-min-height: 100%;
-padding: 0px 30px 30px 30px;
-margin-top: auto;
-margin-bottom: auto;
+  background-color: #fbfaff;
+  min-height: 100%;
+  padding: 0px 30px 30px 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-top: 2px solid #375a44;
+  border-right: 2px solid #3d634c;
+  border-bottom: 5px solid #203b2c;
+  border-left: 5px solid #284634;
 }
 
 .btn-outline-dark {
@@ -46,6 +50,13 @@ margin-bottom: auto;
 
 a {
   color: #ecb540;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #ecb540;
+  font-weight: 1000;
+  text-decoration: none;
 }
 
 hr.light {
@@ -62,18 +73,17 @@ hr.yellow {
 
 hr.sm {
   width: 4%;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 hr.md {
   width: 80%;
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Header */
-
 .jumbotron {
   background-color: #fbfaff;
   padding: 0;
@@ -86,19 +96,26 @@ hr.md {
   line-height: 60px;
   font-size: 46px;
   margin-bottom: 20px;
+  color: #36373a;
 }
 
 .jumbotron h1, .jumbotron p {
   text-align: center;
 }
 
-/* Sidebar */
+.jumbotron hr.md {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
 
+/* Sidebar */
 #sidebar {
   background-color: #36373a;
   color: #fbfaff;
   padding-top: 30px;
   padding-bottom: 30px;
+  border-top: 3px solid #302e31;
+  border-right: 3px solid #292a2d;
 }
 
 #instructions {
@@ -112,6 +129,7 @@ hr.md {
   font-size: 18px;
   margin-bottom: 15px;
   padding-left: 15px;
+  line-height: 22px;
 }
 
 select {
@@ -131,12 +149,12 @@ select {
 }
 
 .custom-select:after {
-  color: #df5b2f;
+  color: #ecb540;
 }
 
 /* Main Content: Quiz Results */
 
-#incompleteQuiz, #swiftContent, #cContent, #pythonContent, #qualities {
+#javascriptContent, #swiftContent, #cContent, #pythonContent, #qualities {
   display: none;
 }
 
@@ -144,19 +162,28 @@ select {
   padding-top: 30px;
   padding-left: 10px;
 }
+
 .quizResults h3 {
   text-transform: uppercase;
   font-size: 14px;
 }
 
 img.languageLogo {
-  width: 100
+  width: 100%;
   float: right;
 }
 
+#qualities h5  {
+  font-size: 24px;
+  }
+
+#qualities h5 span {
+  color: #ecb540;
+  font-weight: 600;
+  font-size: 28px;
+  }
+
 /* Footer Styles */
-
-
 #footer {
   padding-top: 30px;
   text-align: center;
@@ -167,7 +194,6 @@ img.languageLogo {
   margin-right: auto;
   margin-left: auto;
   color: #292a2d32;
-
 }
 
 #footer a {
