@@ -95,12 +95,12 @@ hr.md {
 .jumbotron h1 {
   line-height: 60px;
   font-size: 46px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #ecb540;
   Font-Family: 'Bitter', Serif;
   text-transform: uppercase;
   font-weight: 900;
- 
+  filter: drop-shadow(-3px 3px 3px #e8e8e8);
 }
 
 .jumbotron h1, .jumbotron p {
