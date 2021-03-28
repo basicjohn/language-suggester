@@ -101,6 +101,7 @@ hr.md {
   text-transform: uppercase;
   font-weight: 900;
   filter: drop-shadow(-3px 3px 3px #e8e8e8);
+  letter-spacing: 3px;
 }
 
 .jumbotron h1, .jumbotron p {
