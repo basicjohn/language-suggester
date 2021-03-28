@@ -40,7 +40,7 @@ $(document).ready(function () {
     // insert the answer for question #5 in the div w/ id of qualities
     if (question5val > 0) {
       $(function () {
-        $("#qualities h5").remove();
+        $("#qualities h5, #qualities .yellow").remove();
         $("#qualities").show();
         $("<h5><span>" + question5 + "</span> is a great quality for a developer!</h5>").prependTo('#qualities');
         $("<hr class=\"yellow\">").appendTo('#qualities');

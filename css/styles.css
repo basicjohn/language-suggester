@@ -96,7 +96,11 @@ hr.md {
   line-height: 60px;
   font-size: 46px;
   margin-bottom: 20px;
-  color: #36373a;
+  color: #ecb540;
+  Font-Family: 'Bitter', Serif;
+  text-transform: uppercase;
+  font-weight: 900;
+ 
 }
 
 .jumbotron h1, .jumbotron p {
