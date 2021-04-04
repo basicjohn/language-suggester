@@ -29,7 +29,11 @@ _This is a website designed and created to help a user figure out which language
 
 - Clone the repository to your desktop.
 - Navigate to the top level of the directory.
+<<<<<<< HEAD
 - Open index.html in your web browser.
+=======
+- Open index.html in you web browser.
+>>>>>>> gh-pages
 
 ## Known Bugs
 
