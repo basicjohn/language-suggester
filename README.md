@@ -24,7 +24,9 @@ _This is a website designed and created to help a user figure out which language
 
 ## Setup/Installation Requirements
 
-* _Desktop Web Browser_
+- Clone the repository to your desktop.
+- Navigate to the top level of the directory.
+- Open index.html in you web browser.
 
 ## Known Bugs
 

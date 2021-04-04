@@ -24,7 +24,7 @@ $(document).ready(function () {
       if (question2 === "1") {
         $("#pythonContent").show();
       } else {
-        $("#cContent").show();
+        $("#cSharpContent").show();
       }
     } else if (question1 === "3") {
       $("#swiftContent").show();

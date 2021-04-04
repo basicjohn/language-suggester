@@ -7,29 +7,35 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 16px;
-  Font-Family: 'Bitter', Serif;
+  font-family: "Bitter", Serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400;
 }
 
 h1 {
-  Font-Family: 'PT Sans', Sans-Serif;
-  Font-Size: 46px;
+  font-family: "PT Sans", Sans-Serif;
+  font-size: 46px;
   font-weight: 400;
 }
 
 h2 {
-  Font-Family: 'Bitter', Serif;
-  Font-Size: 18px;
+  font-family: "Bitter", Serif;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
 
-p, li {
-  Font-Family: 'Bitter', Serif;
-  Font-Size: 14px;
+p,
+li {
+  font-family: "Bitter", Serif;
+  font-size: 14px;
 }
 
 .container {
@@ -88,7 +94,7 @@ hr.md {
   background-color: #fbfaff;
   padding: 0;
   padding-top: 15px;
-  padding-bottom: 15px;;
+  padding-bottom: 15px;
   margin: 0;
 }
 
@@ -97,14 +103,15 @@ hr.md {
   font-size: 46px;
   margin-bottom: 15px;
   color: #ecb540;
-  Font-Family: 'Bitter', Serif;
+  font-family: "Bitter", Serif;
   text-transform: uppercase;
   font-weight: 900;
   filter: drop-shadow(-3px 3px 3px #e8e8e8);
   letter-spacing: 3px;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1,
+.jumbotron p {
   text-align: center;
 }
 
@@ -158,8 +165,11 @@ select {
 }
 
 /* Main Content: Quiz Results */
-
-#javascriptContent, #swiftContent, #cContent, #pythonContent, #qualities {
+#javascriptContent,
+#swiftContent,
+#cSharpContent,
+#pythonContent,
+#qualities {
   display: none;
 }
 
@@ -178,15 +188,15 @@ img.languageLogo {
   float: right;
 }
 
-#qualities h5  {
+#qualities h5 {
   font-size: 24px;
-  }
+}
 
 #qualities h5 span {
   color: #ecb540;
   font-weight: 600;
   font-size: 28px;
-  }
+}
 
 /* Footer Styles */
 #footer {
